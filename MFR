@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpg" href="./favicon.gif"/>
+    <title>RC Website</title>
+  </head>
+  <body>
+    <header>
+        <!-- nav>ul>li*3 -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>My super website!</h1>
+        <section>
+            <h2>Food info</h2>
+            <article>
+                <h3>Potatoes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Potato_potato.jpg" alt="potatoes" width="200">
+            </article>
+            <article>
+                <h3>Bananas</h3>
+                <p>Sint porro aliquam eaque excepturi libero, aspernatur sit maiores</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bananas.jpg/1280px-Bananas.jpg" width=200 alt="bananas" >
+            </article>
+            <article>
+                <h3>Cheese</h3>
+                <p>Repellat aliquid nisi magni placeat! Neque laudantium esse quibusdam.</p>
+                <img src="https://t4.ftcdn.net/jpg/00/71/66/69/360_F_71666993_tv6fg6VaVkbffuRA7KphW2S1eC9cm0XV.jpg" alt="cheese" width="200">
+            </article>
+        </section>
+        <section>
+            <h2>My favourites meals</h2>
+            <ul>
+                <li>Spaghetti</li>
+                <li>Paella</li>
+                <li>Bocadillo</li>
+                <li>Pizza</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Contact</h2>
+            <form action="/action_page.php">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <input type="submit" value="Submit">
+              </form>
+        </section>
+        <section>
+            <h2>Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.0827683624348!2d-3.7112334233400857!3d40.4070171714411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422880f337a64b%3A0xab2a1c9258f83b77!2sMadrid%20For%20Refugees!5e0!3m2!1sen!2ses!4v1702927756154!5m2!1sen!2ses" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+    </main>
+    <footer>
+        <p>@copyright RefugeesCode 23/24</p>
+    </footer>
+
+
+    
+  </body>
+</html>
